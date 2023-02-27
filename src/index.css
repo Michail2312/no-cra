@@ -1,0 +1,7 @@
+@import "style/font.css";
+@import "./style/font.css";
+
+body {
+  background-color: red;
+  font-family: "Montserrat";
+}
