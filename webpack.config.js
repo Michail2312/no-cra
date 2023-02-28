@@ -6,7 +6,7 @@ const mode = process.env.NODE_ENV || "development";
 
 module.exports = {
   mode,
-  devtool: mode === "prodaction" ? false : "eval",
+  devtool: mode === "production" ? false : "eval",
   entry: path.resolve(__dirname, "src", "index.jsx"),
   output: {
     path: path.resolve(__dirname, "dist"),
